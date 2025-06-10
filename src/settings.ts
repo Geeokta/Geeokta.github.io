@@ -1,6 +1,6 @@
 export const profile = {
-	fullName: 'Your Name',
-	title: '',
+	fullName: 'Nydia Catalina Reyes Suárez',
+	title: 'Research Technologist',
 	institute: '',
 	author_name: '', // Author name to be highlighted in the papers section
 	research_areas: [
@@ -10,14 +10,14 @@ export const profile = {
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
+	email: 'nreyessuarez@ogs.it',
+	linkedin: 'https://www.linkedin.com/in/catalina-reyes-su%C3%A1rez-56b235242/',
 	x: 'https://www.x.com/',
-	github: '',
-	gitlab: '',
-	scholar: '',
-	inspire: '',
-	arxiv: '',
+	github: 'https://github.com/Geeokta',
+	//gitlab: '',
+	scholar: 'https://scholar.google.com/citations?user=i6wrmqgAAAAJ&hl=en',
+	ORCID: 'https://orcid.org/0000-0002-3906-471X',
+	website: 'https://Geeokta.github.io',
 }
 
 export const template = {

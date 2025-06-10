@@ -38,6 +38,7 @@ export default {
             "winter",
             "dim",
             "nord",
+            "abyss",
             "sunset",
         ],
     },

@@ -1,10 +1,10 @@
 export const profile = {
 	fullName: 'Nydia Catalina Reyes Suárez',
 	title: 'Research Technologist',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	institute: 'National Institute of Oceanography and Applied Geophysics - OGS, Trieste, Italy',
+	author_name: 'N.C Reyes-Suarez', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		 { title: 'Physical Oceanography', description: 'Brief description of the research interest', field: 'Physical Oceanography' },
 	],
 }
 
@@ -14,18 +14,18 @@ export const social = {
 	linkedin: 'https://www.linkedin.com/in/catalina-reyes-su%C3%A1rez-56b235242/',
 	x: 'https://www.x.com/',
 	github: 'https://github.com/Geeokta',
-	//gitlab: '',
+	gitlab: '',
 	scholar: 'https://scholar.google.com/citations?user=i6wrmqgAAAAJ&hl=en',
-	ORCID: 'https://orcid.org/0000-0002-3906-471X',
-	website: 'https://Geeokta.github.io',
+	orcid: 'https://orcid.org/0000-0002-3906-471X',
+	//website: 'https://Geeokta.github.io',
 }
 
 export const template = {
 	website_url: 'https://Geeokta.github.io', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: false,
 	transitions: true,
-	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
+	lightTheme: 'acid', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'abyss', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
     base: '' // Repository name starting with /

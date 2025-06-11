@@ -1,7 +1,7 @@
 export const profile = {
-	fullName: 'Nydia Catalina Reyes Suárez',
+	fullName: 'Catalina Reyes Suárez',
 	title: 'Research Technologist',
-	institute: 'National Institute of Oceanography and Applied Geophysics - OGS, Trieste, Italy',
+	institute: 'National Institute of Oceanography and Applied Geophysics - OGS in Trieste, Italy',
 	author_name: 'N.C Reyes-Suarez', // Author name to be highlighted in the papers section
 	research_areas: [
 		 { title: 'Physical Oceanography', description: 'Brief description of the research interest', field: 'Physical Oceanography' },

@@ -4,7 +4,11 @@ export const profile = {
 	institute: 'National Institute of Oceanography and Applied Geophysics - OGS in Trieste, Italy',
 	author_name: 'N.C Reyes-Suarez', // Author name to be highlighted in the papers section
 	research_areas: [
-		 { title: 'Physical Oceanography', description: 'Brief description of the research interest', field: 'Physical Oceanography' },
+		 { title: 'Physical and chemical oceanography', description: '', field: 'Physical oceanography' },
+		 { title: 'Marine data management and analysis', description: '', field: 'Marine data management and analysis' },
+		//  { title: 'Marine Environmental Monitoring', description: '', field: 'Marine Environmental Monitoring' },
+		 { title: 'Data visualization and toolboxes', description: '', field: 'Data visualization and toolboxes' },
+		//  { title: 'Oceanographic instrumentation', description: '', field: 'Oceanographic instrumentation' },
 	],
 }
 
@@ -25,8 +29,8 @@ export const template = {
 	website_url: 'https://Geeokta.github.io', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: false,
 	transitions: true,
-	lightTheme: 'pastel', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'sunset', // Select one of the Daisy UI Themes or create your own
+	lightTheme: 'winter', // Select one of the Daisy UI Themes, it select the first one by default
+	darkTheme: 'dracula', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
     base: '' // Repository name starting with /

@@ -25,8 +25,8 @@ export const template = {
 	website_url: 'https://Geeokta.github.io', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: false,
 	transitions: true,
-	lightTheme: 'bumblebee', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'synthwave', // Select one of the Daisy UI Themes or create your own
+	lightTheme: 'pastel', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'sunset', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
     base: '' // Repository name starting with /

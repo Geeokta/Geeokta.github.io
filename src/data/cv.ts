@@ -77,7 +77,7 @@ export const publications = [
 	{
 		title: 'Reconstructing the long-term time series of ocean acidification data in the Gulf of Trieste: the importance of metadata for data harmonisation and standardisation',
 		authors: 'Nydia Catalina Reyes Suarez, Marina Lipizer, Alessandro Altenburger, Elena Partescano, Sebastian Plehan, Alexia Cociancich, Andrea Corbo, Fabio Brunetti, and Alessandra Giorgetti',
-		journal: 'EGUsphere, EGU General Assembly 2025',
+		journal: 'EGUsphere, EGU General Assembly',
 		time: '2025',
 		link: 'https://doi.org/10.5194/egusphere-egu25-8797',
 		abstract: '',

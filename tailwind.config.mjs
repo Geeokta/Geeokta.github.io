@@ -12,6 +12,9 @@ export default {
            // "light",
           //  "dark",
             //"cupcake",
+            "acid",
+            "fantasy",
+            "lofi",
             "lemonade",
             "bumblebee",
             "corporate",
@@ -23,9 +26,9 @@ export default {
             "garden",
             "forest",
             "aqua",
-            "lofi",
+            
             "pastel",
-            "fantasy",
+            
             "wireframe",
             "black",
             "luxury",
@@ -33,7 +36,7 @@ export default {
             "cmyk",
             "autumn",
             "business",
-            "acid",
+            
             
             "night",
             "coffee",

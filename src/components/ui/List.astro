@@ -4,6 +4,7 @@ interface Props {
   listItems: {
     title: string;
     description: string;
+    link: string;
   }[];
 }
 const {listTitle, listItems} = Astro.props
@@ -15,6 +16,9 @@ const {listTitle, listItems} = Astro.props
       <div class="p-6 bg-base-200 rounded-xl text-base-content">
         <h3 class="text-xl font-semibold mb-3">{item.title}</h3>
         <p>{item.description}</p>
+        <a href={item.link} class="text-primary underline" target="_blank" rel="noopener noreferrer">
+          {item.link}
+        </a>
       </div>
     ))
   }

@@ -12,6 +12,7 @@ export default {
            // "light",
           //  "dark",
             //"cupcake",
+            "lemonade",
             "bumblebee",
             "corporate",
             "synthwave",
@@ -33,7 +34,7 @@ export default {
             "autumn",
             "business",
             "acid",
-            "lemonade",
+            
             "night",
             "coffee",
           //  "winter",

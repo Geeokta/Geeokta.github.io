@@ -49,7 +49,7 @@ export const education = [
 export const skills = [
 	{
 		title: 'My Programming Playground',
-		description: "I'm a Python enthusiast, but I also juggle other languages like R, MATLAB, Fortran, and C++ depending on the necessity. I also play with markdown or html in my jupyther notebooks. Think of me as a coding chameleon! (not a very good one tho).",
+		description: "I'm a Python enthusiast (still have a long journey tho), but I also juggle other languages like R, MATLAB, Fortran, and C++ depending on the necessity. I also play with markdown or html in my jupyther notebooks. Think of me as a coding chameleon—always ready to dust off old skills and learn new ones.",
 	},
 	{
 		title: 'Datasets and Data Management',
@@ -57,7 +57,7 @@ export const skills = [
 	},
 	{
 		title: 'Applications',
-		description: 'I have a soft spot for Jupyter Notebooks, where I can mix code, data, and documentation. Recently I started using GitHub for version control and collaboration, and I’m always up for a good code review. I can use office as well, but I prefer to use LaTeX for my reports and papers.',
+		description: 'I have a soft spot for Jupyter Notebooks, where I can mix code, data, and documentation. Recently I started using GitHub for version control and collaboration. I can use office as well, but I prefer to use LaTeX for my reports and papers.',
 	},
 	{
 		title: 'Data Visualization',
@@ -65,8 +65,7 @@ export const skills = [
 	},
 	{
 		title: 'Oceanographic Instrumentation',
-		description: 'I have hands-on experience with oceanographic instruments like CTD, ADCP, and HFR. I can handle data acquisition and processing with ease.',
-	},
+		description: "I have hands-on experience with oceanographic instruments like CTD, ADCP, and HFR. It's been a while since I've worked with them, but I'm pretty chill with data acquisition and processing. Plus, I pick things up quickly, so I'd be back in the groove in no time!"	},
 	{
 		title: 'Mentoring and Collaboration',
 		description: 'I love geeking out over marine science, sharing cool facts, and diving into lively discussions with colleagues.'

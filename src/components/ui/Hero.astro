@@ -10,8 +10,8 @@ const {fullName, title, institute, profilePicture} = Astro.props
   <h1 class='text-4xl font-bold mb-4'>
     Hello! I'm <span class='text-secondary'>{fullName}</span>
   </h1>
-  <p class='text-xl text-gray-600 mb-4'>{title}at the {institute ? ` at ${institute}` : ''}</p>
-  <p class='text-lg mb-6'>
+  <p class='text-xl text-gray-600 mb-4' style='text-align: justify;'>{title} {institute ? ` at the ${institute}` : ''}</p>
+  <p class='text-lg mb-6' style='text-align: justify;'>
     I am a physical oceanographer with a background in operational oceanography. Since 2022 I have been working as a research technologist at the
     <a href='https://nodc.ogs.it/' class='text-secondary hover:underline'>National Oceanography Data Center, NODC</a> in Trieste, Italy.
     I am currently involved in the analysis, quality control and validation of oceanographic data and in the development of tools for the 
@@ -26,15 +26,15 @@ const {fullName, title, institute, profilePicture} = Astro.props
       <li>- Postdoctoral Researcher, Istituto Nazionale di Oceanografia e Geofisica Sperimentale, Trieste, Italy</li>
     </ul> -->
 
-  <p class='text-lg mt-6'>
+  <p class='text-lg mt-6' style='text-align: justify;'>
     Feel free to explore my work and connect with me through the links below. 
   </p>
  
   <div class='flex gap-4'>
     <SocialIcons />
   </div>
-  <p class='text-lg mt-6'> 
-    Take a peek at my personal blog to see what else I'm into or how I chill during my free time 👨‍👩‍👦‍👦🧗🏾‍♀️🏔️⛷️🚵🏾‍♀️.
+  <p class='text-lg mt-6' style='text-align: justify;'> 
+    Take a peek at my personal blog to see what else I'm into other than work 👨‍👩‍👦‍👦🧗🏾‍♀️🏔️⛷️🚵🏾‍♀️.
   </p>
 </div>
 
